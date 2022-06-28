@@ -37,4 +37,22 @@
         * prettier // will do it later
 
     6. Add Tailwindcss and its Dependencies for css-in-js
-        *
+        * tailwindcss //
+        * twin.macro //
+        * emotion/react //
+        * emotion/styled //
+        * emotion/babel-preset-css-prop //
+
+    7. Add redux and its Dependencies for global state management
+        * redux //
+        * redux-thunk //
+        * react-redux //
+    
+    8. Add REACT ROUTER and its Dependencies for routing
+        * react-router-dom //
+
+    9. Add jest and testing library and its Dependencies for testing
+        * 
+    
+    10. Add Loadable Components nd its Dependencies for for SSR and Code Splitting in react
+        * 
