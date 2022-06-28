@@ -1,4 +1,5 @@
-** Steps to start 
+** Steps to start
+
     1. Add webpack and its sub-package as a devDependencies
         * webpack // static module bundler for JavaScript applications
         * webpack-cli //CLI tool for providing a flexible set of commands for developers to increase speed
@@ -9,11 +10,14 @@
     2. Add react and its sub-package as a proDependencies 
         * react // frontend js library,for defining components and handle Virtual DOM things
         * react-dom // provides some methods to interact with real DOM
-    Note:- As you know, just installing React is not enough because it’s impossible to compile React JSX. webpack is just a bundler. There is no function to transpile React JSX. So it’s time to use Babel !
+    
+** Note:- As you know, just installing React is not enough because it’s impossible to compile React JSX. webpack is just a bundler. There is no function to transpile React JSX. So it’s time to use Babel!
 
     3. Add Babel and its sub-package as a devDependencies
         * babel/core //core library of Babel is @babel/core
         * babel-loader //To use Babel with webpack, you need to use babel-loader,Loads ES2015+ code and transpiles to ES5 using Babel
+        * babel/runtime //package that contains a polyfill and many other things that Babel can reference.
+        * babel/cli // command line interface to use babel
         * babel/preset-env // is a smart transpile preset which covers most of advance javascript features.
         * core-js //polyfill preset for javascript 
         * babel/preset-react // To transpile React JSX
@@ -26,3 +30,11 @@
         * types/react-dom //type defination for react-dom
         * ts-loader //loader for Typescript using with babel and webpack,Loads TypeScript 2.0+ like JavaScript
         * add tsconfig.json for babel configuration
+    
+    5. Add some tools for faster development,code readability and debugging
+        * path // node.js path module for accessing local file
+        * eslint // will do it later
+        * prettier // will do it later
+
+    6. Add Tailwindcss and its Dependencies for css-in-js
+        *
