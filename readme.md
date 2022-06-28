@@ -37,16 +37,21 @@
         * prettier // will do it later
 
     6. Add Tailwindcss and its Dependencies for css-in-js
-        * tailwindcss //
-        * twin.macro //
-        * emotion/react //
-        * emotion/styled //
-        * emotion/babel-preset-css-prop //
+        * tailwindcss //A utility-first CSS framework for rapidly building custom user interfaces.
+        * twin.macro //Twin blends the magic of Tailwind with the flexibility of css-in-js
+        * emotion/react // emotion for react-specific like props etc
+        * emotion/styled // gives a way to create React components that have styles attached to them.
+        * emotion/babel-preset-css-prop //A Babel preset to automatically enable Emotion's css prop when using the classic JSX runtime
+        * babel-plugin-macros //plugin for transpiling macro module(with .macro), used for twin.macro
+        * babel-plugin-twin // plugin for using using,which enables the tw prop without having to import twin
+
+**helpful link:- https://github.com/ben-rogerson/twin.macro/blob/master/docs/options.md
 
     7. Add redux and its Dependencies for global state management
         * redux //
         * redux-thunk //
         * react-redux //
+
     
     8. Add REACT ROUTER and its Dependencies for routing
         * react-router-dom //

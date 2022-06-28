@@ -18,9 +18,11 @@
         "resolveJsonModule": true,
         "allowJs": true /* Allow javascript files to be compiled. Useful when migrating JS to TS */,
         "checkJs": true /* Report errors in .js files. Works in tandem with allowJs. */,
+        "jsxImportSource": "@emotion/react" // Add the css prop
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "types"
     ],
     "exclude": [
         "node_modules",

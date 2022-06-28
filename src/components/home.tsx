@@ -6,10 +6,10 @@ interface props {
 const Home: React.FC<props> = (props) => {
     const { name } = props;
     return (
-        <>
-            <div className="text-3xl font-bold underline">Welcome {name}!</div>
+        <div tw="flex flex-col justify-center text-center text-electric">
+            <div>Welcome {name}!</div>
             <div>This is Home for React App without CRA</div>
-        </>
+        </div>
     );
 };
 
